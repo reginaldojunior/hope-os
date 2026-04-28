@@ -1,10 +1,10 @@
-# Mackenzie OS
+# Hope OS
 
 Simulador educacional de sistema operacional desenvolvido para a disciplina de **Sistemas Operacionais** da **Universidade Presbiteriana Mackenzie**.
 
 ## Sobre o Projeto
 
-O Mackenzie OS é uma ferramenta interativa de linha de comando que simula conceitos fundamentais de sistemas operacionais, permitindo que estudantes visualizem e experimentem na prática:
+O Hope OS é uma ferramenta interativa de linha de comando que simula conceitos fundamentais de sistemas operacionais, permitindo que estudantes visualizem e experimentem na prática:
 
 - **Escalonamento de Processos** (FIFO, Prioridade, Round Robin)
 - **Gerenciamento de Memória** (Bitmap, Alocação, Paginação, Compactação)
@@ -51,7 +51,7 @@ O Mackenzie OS é uma ferramenta interativa de linha de comando que simula conce
 
 1. Clone ou baixe o projeto:
 ```bash
-cd /Users/reginaldo.junior/Documents/Mackenzie/mackenzie-os
+cd /Users/username/Documents/hope-os
 ```
 
 2. Instale as dependências:
@@ -158,4 +158,4 @@ Desenvolvido para a disciplina de **Sistemas Operacionais** da **Mackenzie Unive
 
 ## Licença
 
-Projeto desenvolvido exclusivamente para fins educacionais.
+(GNU) Projeto desenvolvido exclusivamente para fins educacionais.
