@@ -1,6 +1,6 @@
 # Hope OS
 
-Simulador educacional de sistema operacional desenvolvido para a disciplina de **Sistemas Operacionais** da **Universidade Presbiteriana Mackenzie**.
+Simulador educacional de sistema operacional para estudos de **Sistemas Operacionais**.
 
 ## Sobre o Projeto
 
@@ -131,7 +131,7 @@ Após o login, você verá o menu principal com as opções:
 ## Estrutura do Projeto
 
 ```
-mackenzie-os/
+hope-os/
 ├── simulator.py        # Arquivo principal com todo o simulador
 ├── requirements.txt    # Dependências do projeto
 └── README.md          # Este arquivo
@@ -154,7 +154,7 @@ mackenzie-os/
 
 ## Créditos
 
-Desenvolvido para a disciplina de **Sistemas Operacionais** da **Mackenzie Universidade Presbiteriana**.
+Desenvolvido para a disciplina de **Sistemas Operacionais**.
 
 ## Licença
 

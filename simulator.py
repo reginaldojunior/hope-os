@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 #
-#  Mackenzie OS
+#  Hope OS
 #
-#  Copyright (C) 2026  Mackenzie Universidade Presbiteriana
+#  Copyright (C) 2026  Hope OS Project
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -512,7 +512,7 @@ def boot_sequence():
     print("                                                                                              ")
     print("  ════════════════════════════════════════════════════════════════════")
     print(f"  Sistema Operacional Educacional - Versão {VERSION} (Build {BUILD})")
-    print("  Mackenzie Universidade Presbiteriana")
+
     print("  Disciplina: Sistemas Operacionais")
     print("  ════════════════════════════════════════════════════════════════════")
     
@@ -532,7 +532,7 @@ def login():
     
     print("\n")
     print("  ┌────────────────────────────────────────┐")
-    print("  │         MACKENZIE OS LOGIN             │")
+    print("  │         HOPE OS LOGIN             │")
     print("  └────────────────────────────────────────┘")
     print()
     
@@ -887,7 +887,7 @@ def run_info_menu():
   ╔══════════════════════════════════════════════════════╗
   ║              INFORMAÇÕES DO SISTEMA                 ║
   ╠══════════════════════════════════════════════════════╣
-  ║  Sistema:       Mackenzie OS                         ║
+   ║  Sistema:       Hope OS                         ║
   ║  Versão:        {VERSION:<36} ║
   ║  Build:         {BUILD:<36} ║
   ║  Usuário:       {current_user['username']:<36} ║
@@ -904,7 +904,7 @@ def run_info_menu():
   ║  Desenvolvido para fins educacionais                ║
   ║  Disciplina: Sistemas Operacionais                  ║
   ║                                                      ║
-  ║  Mackenzie Universidade Presbiteriana               ║
+
   ║                                                      ║
   ║  Módulos:                                           ║
   ║    - Escalonamento de Processos                     ║
@@ -939,7 +939,7 @@ def main():
         
         print("\n")
         print("  ╔═══════════════════════════════════════════════════════════════╗")
-        print(f"  ║  MACKENZIE OS v{VERSION}  │  Usuário: {current_user['username']:<12} │  Role: {current_user['role']:<10} ║")
+        print(f"  ║  HOPE OS v{VERSION}  │  Usuário: {current_user['username']:<12} │  Role: {current_user['role']:<10} ║")
         print("  ╠═══════════════════════════════════════════════════════════════╣")
         print("  ║  [1] Escalonamento de Processos                               ║")
         print("  ║  [2] Gerenciamento de Memória                                ║")
@@ -952,7 +952,7 @@ def main():
         choice = get_input()
         
         if choice == "0":
-            print("\n  [SHUTDOWN] Encerrando Mackenzie OS...")
+            print("\n  [SHUTDOWN] Encerrando Hope OS...")
             time.sleep(0.5)
             print("  [SHUTDOWN] Sistema encerrado com sucesso.\n")
             break
